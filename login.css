@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/images/login.jpg");
+    width: 100vw;
+    height: 100vh;
+}
+
+.frame{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30rem;
+    height: 40rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(4px) saturate(140%);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10rem 1rem rgba(0, 0, 0, 0.3);
+    border: 1px rgba(0, 0, 0, .3);
+    position: relative;
+}
+
+.frame .user-div{
+    display: flex;
+    position: absolute;
+    top: 0;
+}
+
+.user-profile{
+    width: 170px;
+    border-radius: 50%;
+}
+
+.frame .greeting-div{
+    position: absolute;
+    top: 160px;
+}
+
+.welcome{
+    font-size: 30px;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+}
+
+.frame .username-div{
+    display: flex;
+    position: absolute;
+    left: 130px;
+    top: 215px;
+}
+
+.frame .Password-div{
+    display: flex;
+    position: absolute;
+    left: 130px;
+    top: 280px;
+}
+
+.frame .user-img{
+    width: 50px;
+    position: absolute;
+    left: 70px;
+    top: 210px;
+}
+
+.input{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 270px;
+    height: 50px;
+    border-radius: 20px;
+    border: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px 1px rgba(0,0 ,0 , 0.3);
+    box-shadow: inset 0 0 10px 1px rgba(0, 0, 255, 0.4);
+    padding-left: 20px;
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.input::placeholder{
+    font-size: 15px;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.Password-img{
+    width: 50px;
+    position: absolute;
+    left: 70px;
+    top:275px;
+}
+
+.frame .checkbox{
+    display: flex;
+    position: absolute;
+    top: 181px;
+    left: 22px;
+    width: 50px;
+}
+
+.frame .label{
+    display: flex;
+    position: absolute;
+    top: 357px;
+    left: 80px;
+}
+
+.remember-me, .forgot-password{
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    text-shadow: 1px 10px 10px 1px rgba(0, 0 , 255, 1);
+    color: white;
+}
+
+.frame .forgot{
+    display: flex;
+    position: absolute;
+    top: 357px;
+    right: 70px;
+}
+
+.frame .sign-in{
+    display: flex;
+    position: absolute;
+    top: 425px;
+}
+
+.sign-in-button{
+    width: 5cm;
+    height: 1.3cm;
+    border-radius: 30px;
+    background: linear-gradient(90deg, #0700b8 0%, #00ff88 100%);
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    text-shadow: 10px 10px 10px 10px rgba(0, 0 , 0, 1);
+    border: none;
+}
+
+.sign-in-button:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition-duration: 1.2s;
+    box-shadow: 0 0 35px white;
+}
+
+.frame .no-account{
+    display: flex;
+    position: absolute;
+    bottom: 100px;
+}
+
+.Text, .sign-up{
+    font-size: 18px;
+    font-family: "Lato", sans-serif;
+    font-weight: 600;
+    color: white;
+    font-style: italic;
+    text-shadow: 1px 10px 10px 1px rgba(0, 0 , 255, 1); 
+}
+
+.sign-up{
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+.sign-up:hover{
+    cursor: pointer;
+    color:blueviolet;
+    text-shadow:
+      0 0 3px blueviolet,
+      0 0 5px blueviolet,
+      0 0 10px #fff,
+      0 0 20px #0fa,
+      0 0 32px #0fa,
+      0 0 43px #0fa,
+      0 0 50px #0fa,
+      0 0 60px #0fa;
+}
