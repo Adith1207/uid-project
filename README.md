@@ -28,11 +28,11 @@ This is a **modern and fully responsive Login Page** built using **pure HTML & C
 
 ## 🧩 Features
 
-✅ Clean, minimal design  
-✅ Fully responsive on all screen sizes  
-✅ Input validation structure (ready for JS/PHP integration)  
-✅ Eye-catching button & input hover effects  
-✅ Great for login/registration/landing templates
+=> Clean, minimal design  
+=> Fully responsive on all screen sizes  
+=> Input validation structure (ready for JS/PHP integration)  
+=> Eye-catching button & input hover effects  
+=> Great for login/registration/landing templates
 
 ---
 
